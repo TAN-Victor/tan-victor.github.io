@@ -95,6 +95,23 @@
             nav.classList.remove('fixed');
         }
     });
+    document.addEventListener("DOMContentLoaded", function() {
+    var navLinks = document.querySelectorAll('nav a');
+    var offset = document.querySelector('.page-header').offsetHeight; // Get the height of the fixed header
+
+    navLinks.forEach(function(navLink) {
+        navLink.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent default anchor behavior
+            var targetId = this.getAttribute('href').substring(1); // Get the target element ID
+            var targetElement = document.getElementById(targetId);
+            var targetOffset = targetElement.offsetTop - offset; // Calculate the target offset with header offset
+            window.scrollTo({
+                top: targetOffset,
+                behavior: 'smooth' // Use smooth scrolling behavior
+            });
+        });
+    });
+});
 </script>
     
 </body>
