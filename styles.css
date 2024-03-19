@@ -22,11 +22,18 @@
     font-size: 1rem;
 }
 
-header nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
+nav {
     background-color: rgba(21, 153, 87, 0.8); /* Adjust background color and opacity as needed */
+    position: absolute; /* Initially position within the header */
+    top: 100%; /* Position at the bottom of the header */
+    width: 100%;
+    transition: top 0.3s ease; /* Add smooth transition effect */
+}
+
+nav.fixed {
+    position: fixed; /* Position fixed when scrolling down */
+    top: 0;
+    z-index: 1000; /* Ensure the nav stays above other content */
 }
 
 header nav ul {
