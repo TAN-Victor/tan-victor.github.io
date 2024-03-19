@@ -1,0 +1,67 @@
+/* CSS styles for the portfolio */
+
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    padding: 2rem 0;
+}
+
+.project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+    font-size: 2rem;
+}
+
+.project-tagline {
+    margin-bottom: 2rem;
+    font-weight: normal;
+    opacity: 0.7;
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding-top: 60px; /* Adjust this value to ensure content is not hidden under the fixed header */
+    margin-top: 20px; /* Adjust this value to add space below the fixed header */
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
