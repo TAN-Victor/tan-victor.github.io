@@ -86,10 +86,10 @@
 <script>
     window.addEventListener('scroll', function() {
         var header = document.querySelector('.page-header');
-        var nav = document.querySelector('nav');
-        var headerHeight = header.offsetHeight; // Get height of header
+        var nav = header.querySelector('nav');
+        var headerHeight = header.offsetHeight; // Get height of header including padding and margin
 
-        if (window.pageYOffset > headerHeight) {
+        if (window.scrollY > headerHeight) {
             nav.classList.add('fixed');
         } else {
             nav.classList.remove('fixed');
