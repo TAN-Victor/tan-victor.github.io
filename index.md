@@ -1,10 +1,27 @@
-Hey there! 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
 
-- [WHOAMI](#whoami)
-- [Experience](#experience)
-- [Education](#education)
-- [Projects](#projects)
+<header>
+    <nav>
+        <ul>
+            <li><a href="#whoami">WHOAMI</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+</header>
 
+<div class="content">
+
+Hey there !
 
 # WHOAMI
 
