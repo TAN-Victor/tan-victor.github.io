@@ -1,6 +1,8 @@
+Hey there! 
+
 # WHOAMI
 
-Hey there! I'm Victor Tan, a passionate computer science student passionate about creativity, video games, new technologies and problem-solving. My journey into the realm of coding began with a simple "Hello, World!" program on a mere calculator, and since then, I've been on an exhilarating adventure through the vast landscapes of algorithms, data structures, and software development ! (Oh, and maths, also ☺)...
+I'm Victor Tan, a passionate computer science student passionate about creativity, video games, new technologies and problem-solving. My journey into the realm of coding began with a simple "Hello, World!" program on a mere calculator, and since then, I've been on an exhilarating adventure through the vast landscapes of algorithms, data structures, and software development ! (Oh, and maths, also ☺)...
 
 I'm currently in the fourth year of Engineering School in France, meaning I should graduate in 2025.
 
