@@ -22,9 +22,15 @@ I'm currently in the fourth year of Engineering School in France, meaning I shou
 ### Engineering School | ENSIIE - Evry-Courcouronnes (91) | Sep 2022 - Today
 
 - Applied Mathematics curriculum
-  
-- Top graduate 2023
-▪ Bi-cursus Bachelor's degree in Maths (L3) at the University of Evry Paris-Saclay
+- Valedictorian 2023 (Top of class)
+- Bi-cursus Bachelor's degree in Maths (L3) at the University of Evry Paris-Saclay
 
+### Academic Exchange Abroad | NTNU - Norway | Jan 2024 - Jun 2024
+
+- Computer Science curriculum
+
+### French Preparatory Class | Lycée Lakanal - Sceaux (92) | Sep 2020 - Jun 2022
+
+- Physics & Chemistry track
 
 ### Projects
