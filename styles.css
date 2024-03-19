@@ -5,7 +5,8 @@
     text-align: center;
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
-    padding: 2rem 0;
+    padding: 2rem 0; /* Keep padding for top and bottom */
+    position: relative; /* Required for positioning the .main-nav */
 }
 
 .project-name {
@@ -21,35 +22,38 @@
     font-size: 1rem;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-header {
+header nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
-    padding: 10px 0;
+    background-color: rgba(21, 153, 87, 0.8); /* Adjust background color and opacity as needed */
 }
 
-nav ul {
-    list-style-type: none;
+header nav ul {
+    list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 20px; /* Adjust as needed */
 }
 
-nav ul li a {
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 1.5rem; /* Adjust padding as needed */
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust background color and opacity as needed */
 }
 
 .content {
