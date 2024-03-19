@@ -1,5 +1,11 @@
 Hey there! 
 
+- [WHOAMI](#whoami)
+- [Experience](#experience)
+- [Education](#education)
+- [Projects](#projects)
+
+
 # WHOAMI
 
 I'm Victor Tan, a passionate computer science student passionate about creativity, video games, new technologies and problem-solving. My journey into the realm of coding began with a simple "Hello, World!" program on a mere calculator, and since then, I've been on an exhilarating adventure through the vast landscapes of algorithms, data structures, and software development ! (Oh, and maths, also ☺)...
