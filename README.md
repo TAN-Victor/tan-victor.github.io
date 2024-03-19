@@ -33,4 +33,32 @@ I'm currently in the fourth year of Engineering School in France, meaning I shou
 
 - Physics & Chemistry track
 
-### Projects
+# Projects
+
+### Regression Model for Breast Cancer Detection | R
+
+- Machine Learning Model which predict the Diagnosis of Breast Cancer (Wisconsin Dataset).
+
+### Generalized K-Means | R
+
+- Unsupervised Classification Model where the representatives of clusters are not points but lines or hyperplanes.
+
+### Resolution of Heat Equation with Display | C++
+
+- Solver and Diplay of the Heat Equation in four different materials: Copper, Iron, Glass, Polystyrene.
+
+### Mini Educative Escape-Game | Python
+
+- Program where the user can solve a maze by answering flexible questions.
+
+### Markov Chain Game | C & Python
+
+- Simulation Game of Player movement and Survial time using a Markov Matrix (stochastic) and powers.
+
+### Graphic Interpretor | C
+
+- Program where a list of inputs (such as "Go Right", "Go Down", "Add 0.5 transparency in Alpha channel", "Fill with Red Color", ...) generates a picture.
+
+### Crypted Sentence Generator | OCaml
+
+- Program where a list of inputs (such as "Put letter A", "Go back twice", "Put letter J", "Replace all F with M", ...) generates a sentence.
