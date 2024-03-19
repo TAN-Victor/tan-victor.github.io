@@ -107,3 +107,9 @@ I'm currently in the fourth year of Engineering School in France, meaning I shou
 ### Crypted Sentence Generator | OCaml
 
 - Program where a list of inputs (such as "Put letter A", "Go back twice", "Put letter J", "Replace all F with M", ...) generates a sentence.
+
+
+</div>
+
+</body>
+</html>
