@@ -1,6 +1,6 @@
 # WHOAMI
 
-Hey there! I'm Victor Tan, a passionate computer science student with a knack for creativity, video games, new technologies and problem-solving. My journey into the realm of coding began with a simple "Hello, World!" program on a mere calculator, and since then, I've been on an exhilarating adventure through the vast landscapes of algorithms, data structures, and software development ! (Oh, and maths, also ☺)...
+Hey there! I'm Victor Tan, a passionate computer science student passionate about creativity, video games, new technologies and problem-solving. My journey into the realm of coding began with a simple "Hello, World!" program on a mere calculator, and since then, I've been on an exhilarating adventure through the vast landscapes of algorithms, data structures, and software development ! (Oh, and maths, also ☺)...
 
 I'm currently in the fourth year of Engineering School in France, meaning I should graduate in 2025.
 
@@ -35,6 +35,22 @@ I'm currently in the fourth year of Engineering School in France, meaning I shou
 
 # Projects
 
+### [Work in Progress] Predicting the Winning Team in League of Legends Games | Python
+
+- Machine Learning Application of Logistic Regression, Random Forest, SVMs, Naives Bayes, ANN / CNN to predict the Winning Team in a Game.
+
+### [Work in Progress] Object detection for autonomous driving with Computer Vision (LIDAR) | Python
+
+- Computer Vision Application for Autonomous Driving.
+
+### [Work in Progress] Machine Translation for Japanese & English | Python
+
+- Natural Language Processing Application for Machine Translation between Japanese and English.
+
+### [Work in Progress] News Recommendations | Python
+
+- Recommender Systems Application for News Recommendations with Microsoft Dataset.
+
 ### Regression Model for Breast Cancer Detection | R
 
 - Machine Learning Model which predict the Diagnosis of Breast Cancer (Wisconsin Dataset).
@@ -46,6 +62,10 @@ I'm currently in the fourth year of Engineering School in France, meaning I shou
 ### Resolution of Heat Equation with Display | C++
 
 - Solver and Diplay of the Heat Equation in four different materials: Copper, Iron, Glass, Polystyrene.
+
+### Mobile App for Mathematics Teaching | Dart
+
+- Mobile Application for learning Mathematics through interactive lessons and exercises.
 
 ### Mini Educative Escape-Game | Python
 
