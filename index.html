@@ -83,5 +83,19 @@
 
 </div>
 
+<script>
+    window.addEventListener('scroll', function() {
+        var header = document.querySelector('.page-header');
+        var nav = document.querySelector('nav');
+        var headerHeight = header.offsetHeight; // Get height of header
+
+        if (window.pageYOffset > headerHeight) {
+            nav.classList.add('fixed');
+        } else {
+            nav.classList.remove('fixed');
+        }
+    });
+</script>
+    
 </body>
 </html>
