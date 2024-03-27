@@ -27,7 +27,7 @@ nav {
     position: absolute; /* Initially position within the header */
     top: 100%; /* Position at the bottom of the header */
     width: 100%;
-    transition: top 0.3s, cubic-bezier(0.11, 0.03, 0, 1.5);
+    transition: top 0.3s cubic-bezier(0.11, 0.03, 0, 1.5);
 }
 
 nav.fixed {
