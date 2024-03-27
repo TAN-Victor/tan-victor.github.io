@@ -33,7 +33,7 @@ nav {
 nav.fixed {
     position: fixed; /* Position fixed when scrolling down */
     top: 0;
-    width: 100%;
+    width: calc(100% - 16px);
     z-index: 1000; /* Ensure the nav stays above other content */
     transition: bottom 0.5s ease, position 0.5s ease;
 }
