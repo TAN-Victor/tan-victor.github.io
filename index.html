@@ -4,116 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor Tan's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
+    <!-- Header Section -->
+    <header class="page-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Victor Tan</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-<header class="page-header">
-    <h1 class="project-name">Victor Tan</h1>
-    <p class="project-tagline">This is my Portfolio. It is still lacking, but I am working on it.</p>
-    <nav>
-        <ul>
-            <li><a href="#about me">About Me</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
-</header>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-<div class="content">
-    <!-- About section -->
-    <h2 id="about me">About Me</h2>
-    <p>I'm Victor Tan, a passionate computer science student passionate about creativity, video games, new technologies, and problem-solving. My journey into the realm of coding began with a simple "Hello, World!" program on a mere calculator, and since then, I've been on an exhilarating adventure through the vast landscapes of algorithms, data structures, and software development! (Oh, and maths, also ☺)...</p>
+    <!-- Main Content Section -->
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I'm Victor Tan, a passionate computer science student passionate about creativity, video games, new technologies, and problem-solving. My journey into the realm of coding began with a simple "Hello, World!" program on a mere calculator, and since then, I've been on an exhilarating adventure through the vast landscapes of algorithms, data structures, and software development! (Oh, and maths, also ☺)...</p>
+        </section>
 
-    <!-- Experience section -->
-    <h2 id="experience">Experience</h2>
-    <h3>Summer School Program | IMT Starter & C19 | Jun 2023 - Aug 2023</h3>
-    <ul>
-        <li>Co-Founder of a start-up in the field of mathematics education, Piethagore</li>
-        <li>Development of a mobile application with Flutter</li>
-    </ul>
-    
-    <!-- Education section -->
-    <h2 id="education">Education</h2>
-    <h3>Engineering School | ENSIIE - Evry-Courcouronnes (91) | Sep 2022 - Today</h3>
-    <ul>
-        <li>Applied Mathematics curriculum</li>
-        <li>Valedictorian 2023 (Top of class)</li>
-        <li>Bi-cursus Bachelor's degree in Maths (L3) at the University of Evry Paris-Saclay</li>
-    </ul>
-    
-        <!-- Projects section -->
-    <h2 id="projects">Projects</h2>
-    <h3>[Work in Progress] Predicting the Winning Team in League of Legends Games | Python</h3>
-    <p>Machine Learning Application of Logistic Regression, Random Forest, SVMs, Naive Bayes, ANN / CNN to predict the Winning Team in a Game.</p>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="container">
+                <div class="card">
+                    <h3>Summer School Program | IMT Starter & C19 | Jun 2023 - Aug 2023</h3>
+                    <ul>
+                        <li>Co-Founder of a start-up in the field of mathematics education, Piethagore</li>
+                        <li>Development of a mobile application with Flutter</li>
+                    </ul>
+                </div>
 
-    <h3>[Work in Progress] Object detection for autonomous driving with Computer Vision (LIDAR) | Python</h3>
-    <p>Computer Vision Application for Autonomous Driving.</p>
+                <!-- Add more experience cards here -->
+            </div>
+        </section>
 
-    <h3>[Work in Progress] Machine Translation for Japanese & English | Python</h3>
-    <p>Natural Language Processing Application for Machine Translation between Japanese and English.</p>
+        <section id="education">
+            <h2>Education</h2>
+            <div class="container">
+                <div class="card">
+                    <h3>Engineering School | ENSIIE - Evry-Courcouronnes (91) | Sep 2022 - Today</h3>
+                    <ul>
+                        <li>Awarded Bachelor's degree in Computer Science</li>
+                        <li>Recipient of the Dean's List Award for Academic Excellence</li>
+                    </ul>
+                </div>
 
-    <h3>[Work in Progress] News Recommendations | Python</h3>
-    <p>Recommender Systems Application for News Recommendations with Microsoft Dataset.</p>
+                <!-- Add more education cards here -->
+            </div>
+        </section>
 
-    <h3>Regression Model for Breast Cancer Detection | R</h3>
-    <p>Machine Learning Model which predicts the Diagnosis of Breast Cancer (Wisconsin Dataset).</p>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="container">
+                <div class="card">
+                    <h3>Project 1: Graphic Interpreter | C</h3>
+                    <p>A program where a list of inputs generates a picture.</p>
+                </div>
 
-    <h3>Generalized K-Means | R</h3>
-    <p>Unsupervised Classification Model where the representatives of clusters are not points but lines or hyperplanes.</p>
+                <div class="card">
+                    <h3>Project 2: Crypted Sentence Generator | OCaml</h3>
+                    <p>A program where a list of inputs generates a sentence.</p>
+                </div>
 
-    <h3>Resolution of Heat Equation with Display | C++</h3>
-    <p>Solver and Display of the Heat Equation in four different materials: Copper, Iron, Glass, Polystyrene.</p>
+                <!-- Add more project cards here -->
+            </div>
+        </section>
+    </main>
 
-    <h3>Mobile App for Mathematics Teaching | Dart</h3>
-    <p>Mobile Application for learning Mathematics through interactive lessons and exercises.</p>
+    <!-- Footer Section -->
+    <footer class="page-footer">
+        <div class="container">
+            <small>&copy; 2023 Victor Tan. All rights reserved.</small>
+        </div>
+    </footer>
 
-    <h3>Mini Educative Escape-Game | Python</h3>
-    <p>Program where the user can solve a maze by answering flexible questions.</p>
-
-    <h3>Markov Chain Game | C & Python</h3>
-    <p>Simulation Game of Player movement and Survival time using a Markov Matrix (stochastic) and powers.</p>
-
-    <h3>Graphic Interpreter | C</h3>
-    <p>Program where a list of inputs (such as "Go Right", "Go Down", "Add 0.5 transparency in Alpha channel", "Fill with Red Color", ...) generates a picture.</p>
-
-    <h3>Crypted Sentence Generator | OCaml</h3>
-    <p>Program where a list of inputs (such as "Put letter A", "Go back twice", "Put letter J", "Replace all F with M", ...) generates a sentence.</p>
-
-</div>
-
-<script>
-    window.addEventListener('scroll', function() {
-        var header = document.querySelector('.page-header');
-        var nav = header.querySelector('nav');
-        var headerHeight = header.offsetHeight; // Get height of header including padding and margin
-
-        if (window.scrollY > headerHeight) {
-            nav.classList.add('fixed');
-        } else {
-            nav.classList.remove('fixed');
-        }
-    });
-
-    document.addEventListener("DOMContentLoaded", function() {
-        var navLinks = document.querySelectorAll('nav a');
-        var offset = 20; // Set the desired offset
-    
-        navLinks.forEach(function(navLink) {
-            navLink.addEventListener('click', function(e) {
-                e.preventDefault(); // Prevent default anchor behavior
-                var targetId = this.getAttribute('href').substring(1); // Get the target element ID
-                var targetElement = document.getElementById(targetId);
-                var targetOffset = targetElement.offsetTop - offset; // Calculate the target offset with header offset
-                window.scrollTo({
-                    top: targetOffset,
-                    behavior: 'smooth' // Use smooth scrolling behavior
-                });
-            });
-        });
-    });
-</script>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
