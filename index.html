@@ -1,119 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Tan's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#about" id="logo">Victor Tan</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#projects" data-fr="Projets" data-en="Projects" class="nav-item">Projets</a></li>
+                <li><a href="#education" data-fr="Formation" data-en="Education" class="nav-item">Formation</a></li>  
+            </ul>
+            <button id="language-toggle">English</button>
+        </nav>
+    </header>
 
-<header class="page-header">
-    <h1 class="project-name">Victor Tan</h1>
-    <p class="project-tagline">This is my Portfolio. It is still lacking, but I am working on it.</p>
-    <nav>
-        <ul>
-            <li><a href="#about me">About Me</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
-</header>
+    <main>
+        <section id="about" class="section">
+            <div class="text-box">
+                <div id="about-text-fr" class="text-fr">
+                    <div id="animated-text-about-fr"></div>
+                </div>
+                <div id="about-text-en" class="text-en">
+                    <div id="animated-text-about-en"></div>
+                </div>
+            </div>
+        </section>
 
-<div class="content">
-    <!-- About section -->
-    <h2 id="about me">About Me</h2>
-    <p>I'm Victor Tan, a passionate computer science student passionate about creativity, video games, new technologies, and problem-solving. My journey into the realm of coding began with a simple "Hello, World!" program on a mere calculator, and since then, I've been on an exhilarating adventure through the vast landscapes of algorithms, data structures, and software development! (Oh, and maths, also ☺)...</p>
+        <section id="projects" class="section">
+            <div class="text-box">
+                <div id="projects-text-fr" class="text-fr">
+                    <div id="animated-text-projects-fr"></div>
+                    <div class="sub-section">
+                        <h3>Gestion de portefeuille – Reinforcement Learning</h3>
+                        <p>Application du Deep Reinforcement Learning pour la gestion de portefeuille avec contrainte de parcimonie.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Voiture autonome – Computer Vision par LiDAR</h3>
+                        <p>Développement d'une solution de vision par ordinateur pour une voiture autonome utilisant des données LiDAR.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Machine Translation – NLP Japonais - Anglais</h3>
+                        <p>Analyse des techniques de préprocessing pour la traduction automatique japonais-anglais.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Prédiction équipe gagnante - Machine Learning</h3>
+                        <p>Prédiction de l'équipe gagnante d'un match de jeu vidéo (League of Legends) à partir de données de compétitions.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Recommendation d'articles - Systèmes de recommandation</h3>
+                        <p>Recommandation d'articles à des utilisateurs en fonction de leur historique de lecture avec le dataset MIND.</p>
+                    </div>
+                </div>
+                    
+                <div id="projects-text-en" class="text-en">
+                    <div id="animated-text-projects-en"></div>
+                    <div class="sub-section">
+                        <h3>Portfolio management – Reinforcement Learning</h3>
+                        <p>Application of Deep Reinforcement Learning for portfolio management with sparsity constraints.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Autonomous car – LiDAR Computer Vision</h3>
+                        <p>Development of a computer vision solution for an autonomous car using LiDAR data.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Machine Translation – Japanese-English NLP</h3>
+                        <p>Analysis of preprocessing techniques for Japanese-English machine translation.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Winning team prediction - Machine Learning</h3>
+                        <p>Prediction of the winning team of a video game match (League of Legends) from competition data.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Article recommendation - Recommendation Systems</h3>
+                        <p>Recommendation of articles to users based on their reading history with the MIND dataset.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+                    
+        <section id="education" class="section">
+            <div class="text-box">
+                <div id="education-text-fr" class="text-fr">
+                    <div id="animated-text-education-fr"></div>
+                    <div class="sub-section">
+                        <h3>ÉCOLE INGÉNIEUR | ENS Paris-Saclay (91)</h3>
+                        <h4>Septembre 2024 - Aujourd'hui</h4>
+                        <p>Master Mathématiques, Vision, Apprentissage (MVA)</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>ÉCOLE INGÉNIEUR | ENSIIE – Évry-Courcouronnes (91)</h3>
+                        <h4>Septembre 2022 - Aujourd'hui</h4>
+                        <p>Double diplôme - Cursus Mathématiques Appliquées</p>
+                        <p>Major de promotion 2023</p>
+                        <p>Licence Mathématiques à l'Université d'Évry</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Programme d'échange Erasmus | NTNU, Norvège</h3>
+                        <h4>Janvier 2024 - Juin 2024</h4>
+                        <p>Cursus Computer Science - NLP, Deep Learning, Computer Vision, Machine Learning</p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Classe Préparatoire PC* | Lycée Lakanal - Sceaux (92)</h3>
+                        <h4>Septembre 2020 - Juin 2022</h4>
+                        <p>Lycée Lakanal, Sceaux</p>
+                    </div>
+                </div>
+        
+                <div id="education-text-en" class="text-en">
+                    <div id="education-text-en" class="text-en">
+                        <div id="animated-text-education-en"></div>
+                        <div class="sub-section">
+                            <h3>Engineering School | ENS Paris-Saclay (91)</h3>
+                            <h4>September 2024 - Present</h4>
+                            <p>Master's in Mathematics, Vision, and Learning (MVA)</p>
+                        </div>
+                        <div class="sub-section">
+                            <h3>Engineering School | ENSIIE – Évry-Courcouronnes (91)</h3>
+                            <h4>September 2022 - Present</h4>
+                            <p>Dual Degree in Applied Mathematics</p>
+                            <p>Valedictorian, Class of 2023</p>
+                            <p>Bachelor’s in Mathematics at the University of Évry</p>
+                        </div>
+                        <div class="sub-section">
+                            <h3>Erasmus Exchange Program | NTNU, Norway</h3>
+                            <h4>January 2024 - June 2024</h4>
+                            <p>Computer Science curriculum - NLP, Deep Learning, Computer Vision, Machine Learning</p>
+                        </div>
+                        <div class="sub-section">
+                            <h3>Preparatory Class PC* | Lycée Lakanal - Sceaux (92)</h3>
+                            <h4>September 2020 - June 2022</h4>
+                            <p>Lycée Lakanal, Sceaux</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                    
+    </main>
 
-    <!-- Experience section -->
-    <h2 id="experience">Experience</h2>
-    <h3>Summer School Program | IMT Starter & C19 | Jun 2023 - Aug 2023</h3>
-    <ul>
-        <li>Co-Founder of a start-up in the field of mathematics education, Piethagore</li>
-        <li>Development of a mobile application with Flutter</li>
-    </ul>
-    
-    <!-- Education section -->
-    <h2 id="education">Education</h2>
-    <h3>Engineering School | ENSIIE - Evry-Courcouronnes (91) | Sep 2022 - Today</h3>
-    <ul>
-        <li>Applied Mathematics curriculum</li>
-        <li>Valedictorian 2023 (Top of class)</li>
-        <li>Bi-cursus Bachelor's degree in Maths (L3) at the University of Evry Paris-Saclay</li>
-    </ul>
-    
-        <!-- Projects section -->
-    <h2 id="projects">Projects</h2>
-    <h3>[Work in Progress] Predicting the Winning Team in League of Legends Games | Python</h3>
-    <p>Machine Learning Application of Logistic Regression, Random Forest, SVMs, Naive Bayes, ANN / CNN to predict the Winning Team in a Game.</p>
-
-    <h3>[Work in Progress] Object detection for autonomous driving with Computer Vision (LIDAR) | Python</h3>
-    <p>Computer Vision Application for Autonomous Driving.</p>
-
-    <h3>[Work in Progress] Machine Translation for Japanese & English | Python</h3>
-    <p>Natural Language Processing Application for Machine Translation between Japanese and English.</p>
-
-    <h3>[Work in Progress] News Recommendations | Python</h3>
-    <p>Recommender Systems Application for News Recommendations with Microsoft Dataset.</p>
-
-    <h3>Regression Model for Breast Cancer Detection | R</h3>
-    <p>Machine Learning Model which predicts the Diagnosis of Breast Cancer (Wisconsin Dataset).</p>
-
-    <h3>Generalized K-Means | R</h3>
-    <p>Unsupervised Classification Model where the representatives of clusters are not points but lines or hyperplanes.</p>
-
-    <h3>Resolution of Heat Equation with Display | C++</h3>
-    <p>Solver and Display of the Heat Equation in four different materials: Copper, Iron, Glass, Polystyrene.</p>
-
-    <h3>Mobile App for Mathematics Teaching | Dart</h3>
-    <p>Mobile Application for learning Mathematics through interactive lessons and exercises.</p>
-
-    <h3>Mini Educative Escape-Game | Python</h3>
-    <p>Program where the user can solve a maze by answering flexible questions.</p>
-
-    <h3>Markov Chain Game | C & Python</h3>
-    <p>Simulation Game of Player movement and Survival time using a Markov Matrix (stochastic) and powers.</p>
-
-    <h3>Graphic Interpreter | C</h3>
-    <p>Program where a list of inputs (such as "Go Right", "Go Down", "Add 0.5 transparency in Alpha channel", "Fill with Red Color", ...) generates a picture.</p>
-
-    <h3>Crypted Sentence Generator | OCaml</h3>
-    <p>Program where a list of inputs (such as "Put letter A", "Go back twice", "Put letter J", "Replace all F with M", ...) generates a sentence.</p>
-
-</div>
-
-<script>
-    window.addEventListener('scroll', function() {
-        var header = document.querySelector('.page-header');
-        var nav = header.querySelector('nav');
-        var headerHeight = header.offsetHeight; // Get height of header including padding and margin
-
-        if (window.scrollY > headerHeight) {
-            nav.classList.add('fixed');
-        } else {
-            nav.classList.remove('fixed');
-        }
-    });
-
-    document.addEventListener("DOMContentLoaded", function() {
-        var navLinks = document.querySelectorAll('nav a');
-        var offset = 20; // Set the desired offset
-    
-        navLinks.forEach(function(navLink) {
-            navLink.addEventListener('click', function(e) {
-                e.preventDefault(); // Prevent default anchor behavior
-                var targetId = this.getAttribute('href').substring(1); // Get the target element ID
-                var targetElement = document.getElementById(targetId);
-                var targetOffset = targetElement.offsetTop - offset; // Calculate the target offset with header offset
-                window.scrollTo({
-                    top: targetOffset,
-                    behavior: 'smooth' // Use smooth scrolling behavior
-                });
-            });
-        });
-    });
-</script>
-    
+    <script src="script.js"></script>
 </body>
+
 </html>
