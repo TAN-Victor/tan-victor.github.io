@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Variables pour les textes en français et en anglais
-  const aboutText_fr = "Bonjour! Je suis Victor Tan, doublement diplômé de l'École Normale Supérieure Paris-Saclay (ENS) avec le Master 2 Mathématiques, Vision, Apprentissage (MVA) et de l'école d'ingénieurs ENSIIE. \nJ'ai suivi un parcours Mathématiques Appliquées + Data science + IA + Machine Learning + Deep Learning. Je suis ouvert aux opportunités, n'hésitez pas à me contacter sur LinkedIn par exemple (https://www.linkedin.com/in/tan-victor)";
+  const aboutText_fr = "Bonjour! Je suis Victor Tan, doublement diplômé de l'École Normale Supérieure Paris-Saclay (ENS) avec le Master 2 Mathématiques, Vision, Apprentissage (MVA) et de l'école d'ingénieurs ENSIIE. \nJ'ai suivi un parcours Mathématiques Appliquées + Data science + IA + Machine Learning + Deep Learning. \nJe suis ouvert aux opportunités, n'hésitez pas à me contacter sur LinkedIn par exemple (https://www.linkedin.com/in/tan-victor)";
   const educationText_fr = "Formation ingénieur en Mathématiques Appliquées + Double diplôme ENS Paris-Saclay.";
   const projectsText_fr = "J'ai eu la possibilité de réaliser quelques projets intéressants en Machine Learning et en Deep Learning, à la fois dans le domaine scolaire que personnel.";
   
-  const aboutText_en = "Hello! I’m Victor Tan, a dual graduate from École Normale Supérieure Paris-Saclay (ENS) with a Master’s degree in Mathematics, Vision, and Learning (MVA), and from the engineering school ENSIIE. \nMy background combines Applied Mathematics, Data Science, Artificial Intelligence, Machine Learning, and Deep Learning. I am open to opportunities, so feel free to reach out to me on LinkedIn for instance (https://www.linkedin.com/in/tan-victor)";
+  const aboutText_en = "Hello! I’m Victor Tan, a dual graduate from École Normale Supérieure Paris-Saclay (ENS) with a Master’s degree in Mathematics, Vision, and Learning (MVA), and from the engineering school ENSIIE. \nMy background combines Applied Mathematics, Data Science, Artificial Intelligence, Machine Learning, and Deep Learning. \nI am open to opportunities, so feel free to reach out to me on LinkedIn for instance (https://www.linkedin.com/in/tan-victor)";
   const educationText_en = "Engineering education in Applied Mathematics + Double degree ENS Paris-Saclay.";
   const projectsText_en = "Throughout my studies, I've had the opportunity to work on some interesting academic projects, as well as personal projects.";
   
